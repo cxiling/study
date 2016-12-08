@@ -1,3 +1,5 @@
 20161206 
 	配fiddler，pc缺无线网卡
 	了解svgo（svgomg,gulp-svgmin）
+20161207
+	学promise
