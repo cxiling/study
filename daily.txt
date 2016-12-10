@@ -3,3 +3,5 @@
 	¡ÀΩ‚svgo£®svgomg,gulp-svgmin£©
 20161207
 	—ßpromise
+20161210
+	vue $on $emit
