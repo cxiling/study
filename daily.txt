@@ -5,3 +5,5 @@
 	ѧpromise
 20161210
 	vue $on $emit
+20161212
+	ѧvuex
