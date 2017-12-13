@@ -24,8 +24,3 @@ git reset HEAD readme.txt 可以把暂存区的修改撤销掉，重新放回工
 1. git rm test.txt，然后git commit 文件就从版本库中删除了
 
 2. 删错 git checkout -- test.txt
-
-#dfdf
-
-###ddsds
-####ddsds
