@@ -30,3 +30,7 @@
 >X-Content-Type-Options: nosniff
 
 ###5. X-Content-Security-Policy
+>Content-Security-Policy: default-src 'self'
+
+```default-src``` 是 CSP 指令，多个指令之间用英文分号分割；```'self'``` 是指令值，多个指令值用英文空格分割。
+https://imququ.com/post/content-security-policy-reference.html
