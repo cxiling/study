@@ -24,3 +24,9 @@ git reset HEAD readme.txt 可以把暂存区的修改撤销掉，重新放回工
 1. git rm test.txt，然后git commit 文件就从版本库中删除了
 
 2. 删错 git checkout -- test.txt
+
+强推
+当神坑队友把乱七八糟的代码push到远程分支时，本地可以回滚到自己指定的分支，然后
+```js
+git push -f origin dev2
+```
