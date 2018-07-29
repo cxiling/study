@@ -30,3 +30,11 @@ git reset HEAD readme.txt 可以把暂存区的修改撤销掉，重新放回工
 ```js
 git push -f origin dev2
 ```
+
+
+已经推送（push）过的文件，想在以后的提交时忽略此文件，即使本地已经修改过，而且不删除git远程库中相应文件,执行命令
+
+``` git update-index --assume-unchanged [file-path]```
+
+如果需要恢复提交，使用：
+``` git update-index --no-assume-unchanged [file-path] ```
